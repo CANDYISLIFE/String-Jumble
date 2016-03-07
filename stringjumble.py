@@ -31,4 +31,5 @@ userString = input("Enter a sentene, word or paragraph.")
 inputLength = userString.length()
 
 for i in range(inputLength):
-    for userString[:]
+    for userString[:]:
+        print (inputLength)

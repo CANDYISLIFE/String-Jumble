@@ -26,6 +26,9 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
-userString = input("Enter a word, sentence or paragraph.")
+userString = input("Enter a sentene, word or paragraph.")
 
-stringLength = int( 
+inputLength = userString.length()
+
+for i in range(inputLength):
+    for userString[:]

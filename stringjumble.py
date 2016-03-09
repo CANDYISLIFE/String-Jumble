@@ -26,7 +26,7 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
-userString = input("Enter a sentene, word or paragraph.")
+userInput = input("Enter a sentene, word or paragraph.")
 
 """
 for i in range(inputLength):

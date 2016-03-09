@@ -34,20 +34,20 @@ for i in range(inputLength):
         print (inputLength)
 """   
         
-print(len([userString]))
+print(len([userInput]))
 
 
 from collections import Counter
 
 
 
-def count_letters(userString):
+def count_letters(userInput):
     global count
-    stringList = string.split(userString)
+    stringList = string.split(userInput)
     count = Counter()
     for words in stringList:
-        for letters in set(userString):
+        for letters in set(userInput):
             return count[letters]
 
 
-print (count_letters(userString))
+print (count_letters(userInput))

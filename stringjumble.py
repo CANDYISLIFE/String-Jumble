@@ -28,11 +28,6 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 userString = input("Enter a sentene, word or paragraph.")
 
-inputLength = userString.length()
-
-print(inputLength)
-
-
 """
 for i in range(inputLength):
     for userString[:]:
@@ -43,16 +38,16 @@ print(len([userString]))
 
 
 from collections import Counter
-import string
 
 
-def count_letters(word):
+
+def count_letters(userString):
     global count
-    wordsList = string.split(word)
+    stringList = string.split(userString)
     count = Counter()
-    for words in wordsList:
-        for letters in set(words):
+    for words in stringList:
+        for letters in set(userString):
             return count[letters]
 
-word = "The grey old fox is an idiot"
-print count_letters(word)
+
+print (count_letters(userString))

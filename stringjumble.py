@@ -45,7 +45,7 @@ def count_letters(userInput):
     global count
     inputList = string.split(userInput)
     count = Counter()
-    for words in stringList:
+    for words in inputList:
         for letters in set(userInput):
             return count[letters]
 

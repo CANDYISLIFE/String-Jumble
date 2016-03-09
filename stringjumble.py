@@ -51,3 +51,7 @@ def count_letters(userInput):
 
 
 print (count_letters(userInput))
+
+rev= "" 
+for s in string:
+    rev = s + rev

@@ -43,7 +43,7 @@ from collections import Counter
 
 def count_letters(userInput):
     global count
-    stringList = string.split(userInput)
+    inputList = string.split(userInput)
     count = Counter()
     for words in stringList:
         for letters in set(userInput):

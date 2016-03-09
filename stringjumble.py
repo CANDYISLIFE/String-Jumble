@@ -28,8 +28,12 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 userString = input("Enter a sentene, word or paragraph.")
 
-inputLength = userString.length()
 
+
+"""
 for i in range(inputLength):
     for userString[:]:
         print (inputLength)
+"""   
+        
+print(len([userString]))

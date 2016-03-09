@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Billy
-Credit: <sources>
+Credit: http://stackoverflow.com/questions/18455222/how-to-count-the-number-of-letters-in-a-string-without-the-spaces, David, Ryan
 
 Assignment:
 
@@ -28,6 +28,9 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 userString = input("Enter a sentene, word or paragraph.")
 
+inputLength = userString.length()
+
+print(inputLength)
 
 
 """
@@ -37,3 +40,19 @@ for i in range(inputLength):
 """   
         
 print(len([userString]))
+
+
+from collections import Counter
+import string
+
+
+def count_letters(word):
+    global count
+    wordsList = string.split(word)
+    count = Counter()
+    for words in wordsList:
+        for letters in set(words):
+            return count[letters]
+
+word = "The grey old fox is an idiot"
+print count_letters(word)

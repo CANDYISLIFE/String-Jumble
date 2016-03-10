@@ -32,14 +32,12 @@ userInput = input("Enter a sentene, word or paragraph.")
 for i in range(inputLength):
     for userString[:]:
         print (inputLength)
-"""   
-        
+"""
+
 print(len([userInput]))
 
-
+"""
 from collections import Counter
-
-
 
 def count_letters(userInput):
     global count
@@ -48,7 +46,6 @@ def count_letters(userInput):
     for words in inputList:
         for letters in set(userInput):
             return count[letters]
-
 
 print (count_letters(userInput))
 

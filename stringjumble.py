@@ -28,15 +28,10 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 userInput = input("Enter a sentene, word or paragraph.")
 
-"""
-for i in range(inputLength):
-    for userString[:]:
-        print (inputLength)
-"""
 
-print(len([userInput]))
+print(len(userInput))
 
-"""
+
 from collections import Counter
 
 def count_letters(userInput):
@@ -52,4 +47,3 @@ print (count_letters(userInput))
 rev= "" 
 for s in string:
     rev = s + rev
-"""

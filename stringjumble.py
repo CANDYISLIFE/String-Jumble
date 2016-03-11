@@ -52,3 +52,4 @@ print (count_letters(userInput))
 rev= "" 
 for s in string:
     rev = s + rev
+"""

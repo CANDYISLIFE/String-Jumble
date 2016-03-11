@@ -34,16 +34,9 @@ print(len(userInput))
 
 from collections import Counter
 
-def count_letters(userInput):
-    global count
-    inputList = string.split(userInput)
-    count = Counter()
-    for words in inputList:
-        for letters in set(userInput):
-            return count[letters]
-
-print (count_letters(userInput))
 
 rev= "" 
-for s in string:
+for s in userInput:
     rev = s + rev
+    
+print(rev)

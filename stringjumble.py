@@ -46,9 +46,11 @@ words.append(word)
 print(words)
 print(len(words))
 print(' '.join(words))
+
 for i in range(len(words)-1, -1, -1):
     print(words[i])
     wordsBackwards.append(words[i])
+    
 print(wordsBackwards)   
 print(' '.join(wordsBackwards))
 
@@ -60,6 +62,7 @@ print(rev)
 
 characterRev = words
 print(characterRev)
-
-for t in userInput:
+    
+for t in range(0, len(characterRev), 1):
+    print(characterRev[t])
     

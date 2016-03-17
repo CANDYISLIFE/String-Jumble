@@ -54,7 +54,7 @@ print(word)
 words.append(word)
 print(words)
 print(len(words))
-print(' '.join
+print(' '.join(words))
 print(' '.join(words.reverse()))
 
 

@@ -54,8 +54,7 @@ print(word)
 words.append(word)
 print(words)
 print(len(words))
-
-                
+print(' '.join(words.reverse()))
 
 """
     rev = s + rev
@@ -66,5 +65,5 @@ for s in userInput:
     rev = s + rev:
         if s== " ":
             
-"""    
 print(rev)
+"""

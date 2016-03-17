@@ -26,17 +26,23 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
-userInput = input("Enter a sentene, word or paragraph.")
+userInput = input("Enter a sentence, word or paragraph.")
 
 
 print(len(userInput))
 
-
+"""
 from collections import Counter
 
 
 rev= "" 
+"""
 for s in userInput:
+        if s == " ":
+            print("space")
+        else:
+            print(s)
+"""
     rev = s + rev
     
 print(rev)
@@ -45,5 +51,5 @@ for s in userInput:
     rev = s + rev:
         if s== " ":
             
-    
+"""    
 print(rev)

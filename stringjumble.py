@@ -51,8 +51,9 @@ for s in userInput:
             word = word + s
               
 print(word)
-
+words.append(word)
 print(words)
+print(len(words))
 
                 
 

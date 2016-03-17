@@ -39,19 +39,20 @@ rev= ""
 """
 word= ""
 
-
+words = []
 
 for s in userInput:
         if s == " ":
             print("space")
             print(word)
+            words.append(word)
             word=""
         else:
             word = word + s
               
 print(word)
 
-
+print(words)
 
                 
 

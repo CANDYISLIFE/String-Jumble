@@ -26,11 +26,8 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
-userInput = input("Enter a sentence, word or paragraph.")
-
-
+userInput = input("Please enter a string of text (the bigger the better): ")
 print(len(userInput))
-
 word= ""
 words = []
 wordsBackwards=[]
@@ -64,4 +61,5 @@ print(rev)
 characterRev = words
 print(characterRev)
 
-for t in userInput
+for t in userInput:
+    

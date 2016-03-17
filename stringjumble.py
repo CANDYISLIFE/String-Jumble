@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Billy
-Credit: http://stackoverflow.com/questions/18455222/how-to-count-the-number-of-letters-in-a-string-without-the-spaces, David, Ryan
+Credit: http://stackoverflow.com/questions/18455222/how-to-count-the-number-of-letters-in-a-string-without-the-spaces, David, Ryan, Bill(my dad), http://www.tutorialspoint.com/python/list_reverse.htm, https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/ch02s14.html
 
 Assignment:
 
@@ -54,7 +54,9 @@ print(word)
 words.append(word)
 print(words)
 print(len(words))
+print(' '.join
 print(' '.join(words.reverse()))
+
 
 """
     rev = s + rev

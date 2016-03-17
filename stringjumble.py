@@ -62,14 +62,10 @@ print(wordsBackwards)
 print(' '.join(wordsBackwards))
 
 
-"""
-    rev = s + rev
-    
-print(rev)
+
 rev= "" 
 for s in userInput:
-    rev = s + rev:
-        if s== " ":
+    rev = s + rev
+            
             
 print(rev)
-"""

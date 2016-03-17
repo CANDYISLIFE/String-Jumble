@@ -55,7 +55,10 @@ words.append(word)
 print(words)
 print(len(words))
 print(' '.join(words))
-print(' '.join(words.reverse()))
+for i in range(0, len(words), -1):
+    print(i)
+print(wordsReverse)
+
 
 
 """

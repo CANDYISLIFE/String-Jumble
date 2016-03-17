@@ -37,11 +37,24 @@ from collections import Counter
 
 rev= "" 
 """
+word= ""
+
+
+
 for s in userInput:
         if s == " ":
             print("space")
+            print(word)
+            word=""
         else:
-            print(s)
+            word = word + s
+              
+print(word)
+
+
+
+                
+
 """
     rev = s + rev
     

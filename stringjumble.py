@@ -31,12 +31,6 @@ userInput = input("Enter a sentence, word or paragraph.")
 
 print(len(userInput))
 
-"""
-from collections import Counter
-
-
-rev= "" 
-"""
 word= ""
 words = []
 wordsBackwards=[]
@@ -50,7 +44,7 @@ for s in userInput:
         else:
             word = word + s
               
-print(word)
+print(word)                 
 words.append(word)
 print(words)
 print(len(words))
@@ -61,11 +55,13 @@ for i in range(len(words)-1, -1, -1):
 print(wordsBackwards)   
 print(' '.join(wordsBackwards))
 
-
-
 rev= "" 
 for s in userInput:
     rev = s + rev
             
-            
 print(rev)
+
+characterRev = words
+print(characterRev)
+
+for t in userInput

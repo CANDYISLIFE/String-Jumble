@@ -38,8 +38,8 @@ from collections import Counter
 rev= "" 
 """
 word= ""
-
 words = []
+wordsBackwards=[]
 
 for s in userInput:
         if s == " ":
@@ -55,9 +55,10 @@ words.append(word)
 print(words)
 print(len(words))
 print(' '.join(words))
-for i in range(0, len(words), -1):
-    print(i)
-print(wordsReverse)
+for i in range(len(words)-1, -1, -1):
+    print(words[i])
+    wordsBackwards.append(words[i])
+   
 
 
 

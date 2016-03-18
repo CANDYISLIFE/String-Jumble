@@ -27,7 +27,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 userInput = input("Please enter a string of text (the bigger the better): ")
-print("You entered "" + input + "". Now jumble it:")
+print("You entered " +'"' + userInput +'"'+ ". Now jumble it:")
 word= ""
 words = []
 wordsBackwards=[]

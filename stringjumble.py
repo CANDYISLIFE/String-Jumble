@@ -44,15 +44,14 @@ words.append(word)
 
 for i in range(len(words)-1, -1, -1):
     wordsBackwards.append(words[i])
-    
-
-print(' '.join(wordsBackwards))
 
 rev= "" 
 for s in userInput:
     rev = s + rev
             
 print(rev)
+
+print(' '.join(wordsBackwards))
 
 characterRev = words
 

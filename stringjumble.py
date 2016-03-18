@@ -64,5 +64,8 @@ characterRev = words
 print(characterRev)
     
 for t in range(0, len(characterRev), 1):
-    print(characterRev[t])
-    
+    wordRev = ""
+    for r in (characterRev[t]):
+        wordRev= r + wordRev
+    characterRev[t] = wordRev
+    print(characterRev)

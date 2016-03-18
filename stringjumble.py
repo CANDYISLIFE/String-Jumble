@@ -27,21 +27,17 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 userInput = input("Please enter a string of text (the bigger the better): ")
-print(len(userInput))
 word= ""
 words = []
 wordsBackwards=[]
 
 for s in userInput:
         if s == " ":
-            print("space")
-            print(word)
             words.append(word)
             word=""
         else:
             word = word + s
               
-print(word)                 
 words.append(word)
 print(words)
 print(len(words))

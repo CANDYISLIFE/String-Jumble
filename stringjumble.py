@@ -40,10 +40,9 @@ for s in userInput:
               
 words.append(word)
 
-print(' '.join(words))
+
 
 for i in range(len(words)-1, -1, -1):
-    print(words[i])
     wordsBackwards.append(words[i])
     
 print(wordsBackwards)   

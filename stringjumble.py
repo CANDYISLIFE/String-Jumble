@@ -39,8 +39,7 @@ for s in userInput:
             word = word + s
               
 words.append(word)
-print(words)
-print(len(words))
+
 print(' '.join(words))
 
 for i in range(len(words)-1, -1, -1):
